@@ -33,12 +33,12 @@ const Navbar = () => {
                         </li>
                         <li className="mt-2 border-t border-zinc-700 pt-2">
                             <Link href="#" className="flex justify-between">
-                                Plan <span className="badge bg-lime-400 text-black border-none font-bold">0</span>
+                                Plan <span className="badge bg-lime-400 text-black border-none font-bold"></span>
                             </Link>
                         </li>
                         <li>
                             <Link href="#" className="flex justify-between">
-                                Saved <span className="badge bg-lime-400 text-black border-none font-bold">2</span>
+                                Saved <span className="badge bg-lime-400 text-black border-none font-bold"></span>
                             </Link>
                         </li>
                     </ul>
@@ -81,7 +81,7 @@ const Navbar = () => {
                 <div className="flex items-center gap-2 cursor-pointer text-zinc-300 hover:text-white transition">
                     <span>Plan</span>
                     <span className="bg-lime-400 text-black w-5 h-5 rounded-full flex items-center justify-center text-xs font-bold">
-                        0
+                        
                     </span>
                 </div>
 
@@ -89,7 +89,7 @@ const Navbar = () => {
                 <div className="flex items-center gap-2 cursor-pointer text-zinc-300 hover:text-white transition">
                     <span>Saved</span>
                     <span className="bg-lime-400 text-black w-5 h-5 rounded-full flex items-center justify-center text-xs font-bold">
-                        2
+                        
                     </span>
                 </div>
             </div>
