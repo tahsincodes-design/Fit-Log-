@@ -1,17 +1,15 @@
-export type DifficultyLevel = 'Beginner' | 'Intermediate' | 'Advanced';
-
 export interface WorkoutType {
-  id: number;
+  id: string | number;
   name: string;
+  description?: string;
   image: string;
   muscleGroups: string[];
   equipment: string;
-  difficulty: DifficultyLevel;
+  difficulty?: string;
+  sets?: number;
+  reps?: string;
   duration: number;
   caloriesBurned: number;
-  sets: number;
-  reps: string;
   rating: number;
-  description: string;
-  instructions: string[];
+  instructions?: string[];
 }
