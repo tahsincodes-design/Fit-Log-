@@ -39,7 +39,7 @@ const HeroBanner = () => {
                         width={450}
                         height={450}
                         className="w-full max-w-md object-contain"
-                        priority
+                    priority
                     />
                 </div>
             </div>

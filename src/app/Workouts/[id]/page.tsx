@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { WorkoutType } from '@/Types/type';
-import WorkoutDetailCard from '@/Components/Shared/WorkoutDetailCard';
+import WorkoutDetailCard from '@/Components/HomePage/WorkoutDetailCard';
 
 async function getWorkoutDetail(id: string): Promise<WorkoutType | null> {
     try {

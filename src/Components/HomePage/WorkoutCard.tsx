@@ -49,7 +49,7 @@ const WorkoutCard: React.FC<WorkoutCardProps> = ({ workout }) => {
                     <div className="mt-4 pt-3 border-t border-zinc-800/60 flex items-center justify-between text-zinc-400 text-xs font-semibold">
 
                         <span className="flex items-center gap-1">
-                            ⏱️ {workout.duration} min
+                             {workout.duration} min
                         </span>
 
                         <span className="flex items-center gap-1">

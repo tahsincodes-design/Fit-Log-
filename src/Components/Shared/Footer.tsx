@@ -8,7 +8,6 @@ const Footer = () => {
         <footer className="w-full bg-[#0a0a0a] border-t border-zinc-800/80 py-6 px-4 sm:px-8">
             <div className=" mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
 
-                {/* Left Side: Brand Logo */}
                 <Link href="/" className="flex items-center gap-2 text-xl font-black tracking-wider text-white">
                     <Image
                         src={logo}
@@ -20,7 +19,6 @@ const Footer = () => {
                     <span>FITLOG</span>
                 </Link>
 
-                {/* Right Side: Copyright & Motto */}
                 <p className="text-zinc-500 text-xs sm:text-sm text-center md:text-right font-medium">
                     © {new Date().getFullYear()} FitLog — Workout Library. Train hard, log honest.
                 </p>
