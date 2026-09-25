@@ -12,6 +12,7 @@ const WorkoutCard: React.FC<WorkoutCardProps> = ({ workout }) => {
     return (
 
         <section>
+            <Link href={`/Workouts/${workout.id}`}>
             <div className="bg-[#121212] border border-zinc-800/80 rounded-xl overflow-hidden flex flex-col justify-between hover:border-zinc-700 transition duration-200 w-full">
                 <div className="relative w-full h-80 bg-zinc-900 shrink-0">
 
@@ -61,6 +62,7 @@ const WorkoutCard: React.FC<WorkoutCardProps> = ({ workout }) => {
                     </div>
                 </div>
             </div>
+            </Link>
         </section>
     );
 };
