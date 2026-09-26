@@ -1,4 +1,5 @@
 import React from 'react';
+import WorkoutCard from './WorkoutCard';
 
 export default function WorkoutSkeleton() {
   return (
